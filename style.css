@@ -68,6 +68,15 @@ h1 {
   text-shadow: 0 1px 8px rgba(0,0,0,0.3);
 }
 
+.intro-name {
+  font-weight: 600;
+  font-size: 1.4rem;
+  background: rgba(0,0,0,0.4);
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  color: #fff;
+}
+
 .links {
   display: flex;
   gap: 1rem;
@@ -155,6 +164,19 @@ footer a:hover {
   text-decoration: none;
   font-size: 1rem;
   transition: background 0.18s, color 0.18s;
+}
+
+.project-name {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.project-desc {
+  display: block;
+  font-size: 0.85rem;
+  color: #bbb;
+  font-style: italic;
 }
 
 .dropdown-menu a:hover {
