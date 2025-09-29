@@ -191,8 +191,15 @@ footer a:hover {
 }
 
 .dropdown:focus-within .dropdown-menu,
-.dropdown:hover .dropdown-menu {
+.dropdown:hover .dropdown-menu,
+.dropdown.open .dropdown-menu {
   display: block;
+}
+
+/* Dropup support */
+.dropdown.dropup .dropdown-menu {
+  top: auto;
+  bottom: 110%;
 }
 
 @media (max-width: 700px) {
