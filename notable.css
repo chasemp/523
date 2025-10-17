@@ -97,6 +97,7 @@ body[data-theme="dark"] {
   margin: 0 0 1.5rem 0;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--border);
+  grid-column: 1 / -1; /* Make section title span all columns */
 }
 
 
