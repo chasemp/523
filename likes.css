@@ -8,27 +8,27 @@
 .breadcrumb {
   margin-bottom: 2rem;
   font-size: 0.9rem;
-  color: #aaa;
+  color: var(--muted);
 }
 
 .breadcrumb-link {
-  color: #2d8cff;
+  color: var(--accent);
   text-decoration: none;
   transition: color 0.2s;
 }
 
 .breadcrumb-link:hover {
-  color: #fff;
+  color: var(--text);
   text-decoration: underline;
 }
 
 .breadcrumb-separator {
   margin: 0 0.5rem;
-  color: #666;
+  color: var(--muted);
 }
 
 .breadcrumb-current {
-  color: #fff;
+  color: var(--text);
   font-weight: 500;
 }
 
@@ -41,13 +41,13 @@
   font-size: 2.5rem;
   margin: 0 0 1rem 0;
   font-weight: 700;
-  color: #fff;
+  color: var(--text);
   letter-spacing: 1px;
 }
 
 .likes-subtitle {
   font-size: 1.1rem;
-  color: #bbb;
+  color: var(--muted);
   margin: 0;
   max-width: 600px;
   margin: 0 auto;
@@ -67,10 +67,10 @@
 .section-title {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #fff;
+  color: var(--text);
   margin: 0 0 1.5rem 0;
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid var(--border);
 }
 
 .likes-items {
@@ -80,8 +80,8 @@
 }
 
 .likes-item {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: var(--card-bg);
+  border: 1px solid var(--border);
   border-radius: 12px;
   padding: 1.5rem;
   transition: all 0.2s ease;
@@ -92,10 +92,15 @@
 }
 
 .likes-item:hover {
-  background: rgba(255, 255, 255, 0.05);
-  border-color: rgba(255, 255, 255, 0.12);
+  background: var(--card-bg);
+  border-color: var(--accent);
   transform: translateY(-1px);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Light theme specific hover effect */
+body.light-theme .likes-item:hover {
+  box-shadow: 0 4px 16px rgba(62, 39, 35, 0.1);
 }
 
 .item-logo {
@@ -105,9 +110,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--card-bg);
   border-radius: 8px;
   overflow: hidden;
+  border: 1px solid var(--border);
 }
 
 .item-logo img {
@@ -124,7 +130,7 @@
 .item-title {
   font-size: 1.2rem;
   font-weight: 600;
-  color: #fff;
+  color: var(--text);
   margin: 0 0 0.3rem 0;
   line-height: 1.3;
 }
@@ -132,14 +138,14 @@
 .item-author,
 .item-category {
   font-size: 0.9rem;
-  color: #2d8cff;
+  color: var(--accent);
   margin: 0 0 0.8rem 0;
   font-weight: 500;
 }
 
 .item-description {
   font-size: 0.95rem;
-  color: #ccc;
+  color: var(--muted);
   margin: 0;
   line-height: 1.5;
 }
@@ -153,27 +159,32 @@
 .item-link {
   display: inline-block;
   padding: 0.5rem 1rem;
-  background: rgba(45, 140, 255, 0.1);
-  color: #2d8cff;
+  background: var(--card-bg);
+  color: var(--accent);
   text-decoration: none;
   border-radius: 6px;
   font-size: 0.9rem;
   font-weight: 500;
-  border: 1px solid rgba(45, 140, 255, 0.2);
+  border: 1px solid var(--accent);
   transition: all 0.2s ease;
   white-space: nowrap;
 }
 
 .item-link:hover {
-  background: #2d8cff;
+  background: var(--accent);
   color: #fff;
-  border-color: #2d8cff;
+  border-color: var(--accent);
   transform: translateY(-1px);
-  box-shadow: 0 2px 8px rgba(45, 140, 255, 0.2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Light theme specific link hover */
+body.light-theme .item-link:hover {
+  box-shadow: 0 2px 8px rgba(62, 39, 35, 0.1);
 }
 
 .back-link {
-  color: #2d8cff;
+  color: var(--accent);
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s;
@@ -182,7 +193,7 @@
 }
 
 .back-link:hover {
-  color: #fff;
+  color: var(--text);
   text-decoration: underline;
 }
 

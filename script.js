@@ -1,4 +1,52 @@
 document.addEventListener('DOMContentLoaded', () => {
+  // Theme toggle functionality with cross-domain cookie support
+  const themeToggle = document.getElementById('theme-toggle');
+  const body = document.body;
+  
+  // Cookie helper functions
+  function setCookie(name, value, days = 365) {
+    const expires = new Date();
+    expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000));
+    document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/;domain=.523.life`;
+  }
+  
+  function getCookie(name) {
+    const nameEQ = name + "=";
+    const ca = document.cookie.split(';');
+    for (let i = 0; i < ca.length; i++) {
+      let c = ca[i];
+      while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+      if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+    }
+    return null;
+  }
+  
+  // Check for saved theme preference or default to dark
+  const savedTheme = getCookie('theme') || 'dark';
+  body.setAttribute('data-theme', savedTheme);
+  if (savedTheme === 'light') {
+    body.classList.add('light-theme');
+    themeToggle.textContent = '☀️';
+  } else {
+    themeToggle.textContent = '🌙';
+  }
+  
+  themeToggle.addEventListener('click', () => {
+    const currentTheme = body.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    
+    body.setAttribute('data-theme', newTheme);
+    if (newTheme === 'light') {
+      body.classList.add('light-theme');
+    } else {
+      body.classList.remove('light-theme');
+    }
+    
+    themeToggle.textContent = newTheme === 'dark' ? '🌙' : '☀️';
+    setCookie('theme', newTheme);
+  });
+
+  // Dropdown functionality
   const dropdowns = Array.from(document.querySelectorAll('.dropdown'));
 
   function setAriaExpanded(dropdown, expanded) {
