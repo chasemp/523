@@ -85,7 +85,7 @@ body[data-theme="dark"] {
 .notable-section {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: 1fr;
   gap: 1.5rem;
   margin-bottom: 2rem;
 }
@@ -110,9 +110,8 @@ body[data-theme="dark"] {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  min-height: 200px;
-  max-width: 100%;
-  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /* Grid layout for tiles - now defined above */
