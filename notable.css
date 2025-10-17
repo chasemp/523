@@ -76,13 +76,13 @@ body[data-theme="dark"] {
   line-height: 1.6;
 }
 
-.likes-grid {
+.notable-grid {
   display: flex;
   flex-direction: column;
   gap: 3rem;
 }
 
-.likes-section {
+.notable-section {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -100,7 +100,7 @@ body[data-theme="dark"] {
 }
 
 
-.likes-item {
+.notable-item {
   background: var(--card-bg);
   border: 1px solid var(--border);
   border-radius: 12px;
@@ -116,24 +116,24 @@ body[data-theme="dark"] {
 
 /* Responsive grid - 3 columns on desktop, 2 on tablet, 1 on mobile */
 @media (min-width: 1200px) {
-  .likes-section {
+  .notable-section {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (max-width: 1199px) and (min-width: 768px) {
-  .likes-section {
+  .notable-section {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 767px) {
-  .likes-section {
+  .notable-section {
     grid-template-columns: 1fr;
   }
 }
 
-.likes-item:hover {
+.notable-item:hover {
   background: var(--card-bg);
   border-color: var(--accent);
   transform: translateY(-1px);
@@ -141,7 +141,7 @@ body[data-theme="dark"] {
 }
 
 /* Light theme specific hover effect */
-body.light-theme .likes-item:hover {
+body.light-theme .notable-item:hover {
   box-shadow: 0 4px 16px rgba(62, 39, 35, 0.1);
 }
 
