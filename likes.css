@@ -1,3 +1,25 @@
+/* Book-themed dark mode for Notable and Projects pages */
+:root {
+  /* Book-themed dark mode (matches timeline) */
+  --bg-book-dark: #2a2419;
+  --panel-book-dark: #342d23;
+  --text-book-dark: #e8dcc4;
+  --muted-book-dark: #a89a84;
+  --accent-book-dark: #d4956f;
+  --border-book-dark: #4a3f32;
+  --card-bg-book-dark: #3a3228;
+}
+
+/* Override dark theme for Notable and Projects pages to use book theme */
+body[data-theme="dark"] {
+  --bg: var(--bg-book-dark);
+  --text: var(--text-book-dark);
+  --muted: var(--muted-book-dark);
+  --accent: var(--accent-book-dark);
+  --border: var(--border-book-dark);
+  --card-bg: var(--card-bg-book-dark);
+}
+
 /* Likes page specific styles */
 .likes-main {
   max-width: 800px;
