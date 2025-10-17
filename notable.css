@@ -84,6 +84,10 @@ body[data-theme="dark"] {
 
 .likes-section {
   width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .section-title {
@@ -108,13 +112,7 @@ body[data-theme="dark"] {
   height: 100%;
 }
 
-/* Grid layout for tiles */
-.likes-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  margin-bottom: 2rem;
-}
+/* Grid layout for tiles - now defined above */
 
 /* Responsive grid - 3 columns on desktop, 2 on tablet, 1 on mobile */
 @media (min-width: 1200px) {
