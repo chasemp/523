@@ -115,12 +115,13 @@ h1 {
 .tagline {
   font-size: 1.25rem;
   margin-bottom: 2rem;
-  color: var(--text);
+  color: #fff;
   text-shadow: 0 1px 8px rgba(0,0,0,0.3);
 }
 
 body.light-theme .tagline {
-  text-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  color: #fff;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.6);
 }
 
 .intro-name {
