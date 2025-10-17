@@ -20,8 +20,8 @@ body[data-theme="dark"] {
   --card-bg: var(--card-bg-book-dark);
 }
 
-/* Likes page specific styles */
-.likes-main {
+/* Notable page specific styles */
+.notable-main {
   max-width: 800px;
   width: 100%;
   padding: 0 1rem;
