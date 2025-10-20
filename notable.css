@@ -98,7 +98,8 @@ body[data-theme="dark"] {
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--text);
-  margin: 0 0 1.5rem 0;
+  /* Reduced margin - grid gap provides spacing below */
+  margin: 0;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--border);
   grid-column: 1 / -1; /* Make section title span all columns */
