@@ -88,8 +88,10 @@ body[data-theme="dark"] {
   grid-template-columns: 1fr;
   gap: 1.5rem;
   margin-bottom: 2rem;
-  align-items: start;
-  grid-auto-rows: auto;
+  /* Stretch items to fill row height - makes all tiles same height in each row */
+  align-items: stretch;
+  /* Use 1fr for equal height rows */
+  grid-auto-rows: 1fr;
 }
 
 .section-title {
@@ -114,8 +116,10 @@ body[data-theme="dark"] {
   gap: 1rem;
   width: 100%;
   box-sizing: border-box;
+  /* Space between content and button, stretches to fill grid cell */
   justify-content: space-between;
-  align-self: start;
+  /* Removed align-self: start to allow stretching to equal height */
+  height: 100%;
 }
 
 /* Grid layout for tiles - now defined above */
