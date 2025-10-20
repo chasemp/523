@@ -88,6 +88,8 @@ body[data-theme="dark"] {
   grid-template-columns: 1fr;
   gap: 1.5rem;
   margin-bottom: 2rem;
+  align-items: start;
+  grid-auto-rows: auto;
 }
 
 .section-title {
@@ -112,6 +114,8 @@ body[data-theme="dark"] {
   gap: 1rem;
   width: 100%;
   box-sizing: border-box;
+  justify-content: space-between;
+  align-self: start;
 }
 
 /* Grid layout for tiles - now defined above */
@@ -246,7 +250,7 @@ body.light-theme .item-link:hover {
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
-  .likes-main {
+  .notable-main {
     padding: 0 0.5rem;
   }
 
@@ -258,24 +262,13 @@ body.light-theme .item-link:hover {
     font-size: 1rem;
   }
 
-  .likes-item {
-    flex-wrap: wrap;
-    gap: 1rem;
+  .notable-item {
     padding: 1.2rem;
   }
 
   .item-logo {
     width: 48px;
     height: 48px;
-  }
-
-  .item-content {
-    flex: 1 1 calc(100% - 80px);
-  }
-
-  .item-actions {
-    flex-basis: 100%;
-    align-self: flex-start;
   }
 
   .item-link {
@@ -297,7 +290,7 @@ body.light-theme .item-link:hover {
     font-size: 0.95rem;
   }
 
-  .likes-item {
+  .notable-item {
     padding: 1rem;
   }
 
