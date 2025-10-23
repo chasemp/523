@@ -84,25 +84,24 @@ body[data-theme="dark"] {
 
 .notable-section {
   width: 100%;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.5rem;
   margin-bottom: 2rem;
-  /* Stretch items to fill row height - makes all tiles same height in each row */
-  align-items: stretch;
-  /* Use 1fr for equal height rows */
-  grid-auto-rows: 1fr;
 }
 
 .section-title {
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--text);
-  /* Reduced margin - grid gap provides spacing below */
-  margin: 0;
+  margin: 0 0 1rem 0;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--border);
-  grid-column: 1 / -1; /* Make section title span all columns */
+}
+
+.section-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  align-items: stretch;
+  grid-auto-rows: 1fr;
 }
 
 
@@ -127,19 +126,19 @@ body[data-theme="dark"] {
 
 /* Responsive grid - 3 columns on desktop, 2 on tablet, 1 on mobile */
 @media (min-width: 1200px) {
-  .notable-section {
+  .section-content {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (max-width: 1199px) and (min-width: 768px) {
-  .notable-section {
+  .section-content {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 767px) {
-  .notable-section {
+  .section-content {
     grid-template-columns: 1fr;
   }
 }
