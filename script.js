@@ -184,19 +184,22 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('resize', recomputeOpenDropdown);
   window.addEventListener('scroll', recomputeOpenDropdown, { passive: true });
 
-  // Collapsible sections for notable page
-  const sections = document.querySelectorAll('.notable-section');
-  sections.forEach(section => {
-    const title = section.querySelector('.section-title');
-    if (!title) return;
+  // Collapsible sections for notable page ONLY (not projects page)
+  // Check if we're on the notable page by looking at the page title
+  if (document.title.includes('Notable')) {
+    const sections = document.querySelectorAll('.notable-section');
+    sections.forEach(section => {
+      const title = section.querySelector('.section-title');
+      if (!title) return;
 
-    // Add collapse/expand functionality
-    title.addEventListener('click', () => {
-      section.classList.toggle('collapsed');
+      // Add collapse/expand functionality
+      title.addEventListener('click', () => {
+        section.classList.toggle('collapsed');
+      });
+
+      // Initialize all sections as collapsed
+      section.classList.add('collapsed');
     });
-
-    // Initialize all sections as collapsed
-    section.classList.add('collapsed');
-  });
+  }
 });
 

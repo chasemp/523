@@ -87,11 +87,18 @@ body[data-theme="dark"] {
   margin-bottom: 2rem;
 }
 
+/* Base section title styles (applies to all pages) */
 .section-title {
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--text);
-  margin: 0;
+  margin: 0 0 1rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+/* Collapsible section title styles (only for notable page with collapsible structure) */
+.section-title:has(.section-title-text) {
   padding: 1rem;
   border: 1px solid var(--border);
   border-radius: 8px;
@@ -102,9 +109,12 @@ body[data-theme="dark"] {
   align-items: center;
   transition: all 0.2s ease;
   background: var(--card-bg);
+  margin: 0;
+  padding-bottom: 1rem;
+  border-bottom: none;
 }
 
-.section-title:hover {
+.section-title:has(.section-title-text):hover {
   background: var(--card-bg);
   border-color: var(--accent);
 }
