@@ -183,5 +183,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
   window.addEventListener('resize', recomputeOpenDropdown);
   window.addEventListener('scroll', recomputeOpenDropdown, { passive: true });
+
+  // Collapsible sections for notable page
+  const sections = document.querySelectorAll('.notable-section');
+  sections.forEach(section => {
+    const title = section.querySelector('.section-title');
+    if (!title) return;
+
+    // Add collapse/expand functionality
+    title.addEventListener('click', () => {
+      section.classList.toggle('collapsed');
+    });
+
+    // Initialize all sections as collapsed
+    section.classList.add('collapsed');
+  });
 });
 
