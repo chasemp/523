@@ -79,12 +79,12 @@ body[data-theme="dark"] {
 .notable-grid {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 1.5rem;
 }
 
 .notable-section {
   width: 100%;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
 }
 
 /* Base section title styles (applies to all pages) */
@@ -104,8 +104,8 @@ body[data-theme="dark"] {
   border-radius: 8px;
   cursor: pointer;
   user-select: none;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
   transition: all 0.2s ease;
   background: var(--card-bg);
@@ -122,7 +122,14 @@ body[data-theme="dark"] {
 .section-title-text {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
+  grid-column: 2;
+}
+
+.section-title-count {
+  grid-column: 3;
+  justify-self: end;
 }
 
 .section-title-toggle {
@@ -150,6 +157,7 @@ body[data-theme="dark"] {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.5rem;
+  row-gap: 1.5rem;
   align-items: stretch;
   grid-auto-rows: 1fr;
   margin-top: 1rem;
@@ -165,6 +173,59 @@ body[data-theme="dark"] {
   opacity: 0;
 }
 
+.notable-section.collapsed .section-more-button {
+  display: none;
+}
+
+/* Hide items beyond first row by default */
+.notable-item.hidden-row {
+  display: none;
+}
+
+.notable-section.expanded .notable-item.hidden-row {
+  display: block;
+}
+
+/* More button styling */
+.section-more-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 1.5rem 0;
+  padding: 0;
+}
+
+.section-more-button button {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 0.35rem 0;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+  width: 50%;
+  line-height: 1;
+  text-align: center;
+  margin: 0;
+  display: block;
+}
+
+.section-more-button button:hover {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme .section-more-button button:hover {
+  box-shadow: 0 2px 8px rgba(62, 39, 35, 0.1);
+}
+
 
 .notable-item {
   background: var(--card-bg);
@@ -172,15 +233,12 @@ body[data-theme="dark"] {
   border-radius: 12px;
   padding: 1.5rem;
   transition: all 0.2s ease;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  display: block;
   width: 100%;
   box-sizing: border-box;
-  /* Space between content and button, stretches to fill grid cell */
-  justify-content: space-between;
-  /* Removed align-self: start to allow stretching to equal height */
-  height: 100%;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 /* Grid layout for tiles - now defined above */
@@ -314,36 +372,7 @@ body.light-theme .tag-stable {
 }
 
 .item-actions {
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-}
-
-.item-link {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  background: var(--card-bg);
-  color: var(--accent);
-  text-decoration: none;
-  border-radius: 6px;
-  font-size: 0.9rem;
-  font-weight: 500;
-  border: 1px solid var(--accent);
-  transition: all 0.2s ease;
-  white-space: nowrap;
-}
-
-.item-link:hover {
-  background: var(--accent);
-  color: #fff;
-  border-color: var(--accent);
-  transform: translateY(-1px);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Light theme specific link hover */
-body.light-theme .item-link:hover {
-  box-shadow: 0 2px 8px rgba(62, 39, 35, 0.1);
+  display: none;
 }
 
 .back-link {

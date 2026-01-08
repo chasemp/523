@@ -188,17 +188,87 @@ document.addEventListener('DOMContentLoaded', () => {
   // Check if we're on the notable page by looking at the page title
   if (document.title.includes('Notable')) {
     const sections = document.querySelectorAll('.notable-section');
+    
+    // Function to get items per row based on screen size
+    function getItemsPerRow() {
+      if (window.innerWidth >= 1200) return 3; // Desktop: 3 columns
+      if (window.innerWidth >= 768) return 2; // Tablet: 2 columns
+      return 1; // Mobile: 1 column
+    }
+    
+    // Function to setup section with "more" button
+    function setupSection(section) {
+      const sectionContent = section.querySelector('.section-content');
+      if (!sectionContent) return;
+      
+      const items = sectionContent.querySelectorAll('.notable-item');
+      if (items.length === 0) return;
+      
+      // Remove existing more button if any
+      const existingButton = section.querySelector('.section-more-button');
+      if (existingButton) {
+        existingButton.remove();
+      }
+      
+      // Remove hidden-row class from all items
+      items.forEach(item => item.classList.remove('hidden-row'));
+      
+      // Calculate items per row
+      const itemsPerRow = getItemsPerRow();
+      
+      // If there are more items than one row, hide the rest
+      if (items.length > itemsPerRow) {
+        items.forEach((item, index) => {
+          if (index >= itemsPerRow) {
+            item.classList.add('hidden-row');
+          }
+        });
+        
+        // Create and add "more" button after the section-content
+        const moreButtonContainer = document.createElement('div');
+        moreButtonContainer.className = 'section-more-button';
+        const moreButton = document.createElement('button');
+        moreButton.textContent = 'more...';
+        moreButton.setAttribute('aria-label', 'Show more items');
+        
+        moreButton.addEventListener('click', () => {
+          const isExpanded = section.classList.contains('expanded');
+          if (isExpanded) {
+            section.classList.remove('expanded');
+            moreButton.textContent = 'more...';
+          } else {
+            section.classList.add('expanded');
+            moreButton.textContent = '...less';
+          }
+        });
+        
+        moreButtonContainer.appendChild(moreButton);
+        sectionContent.insertAdjacentElement('afterend', moreButtonContainer);
+      }
+    }
+    
     sections.forEach(section => {
       const title = section.querySelector('.section-title');
       if (!title) return;
 
-      // Add collapse/expand functionality
+      // Add collapse/expand functionality for section title
       title.addEventListener('click', () => {
         section.classList.toggle('collapsed');
       });
 
-      // Initialize all sections as collapsed
-      section.classList.add('collapsed');
+      // Initialize section - show first row with more button
+      setupSection(section);
+    });
+    
+    // Recalculate on window resize
+    let resizeTimeout;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(() => {
+        sections.forEach(section => {
+          setupSection(section);
+        });
+      }, 250);
     });
   }
 });
