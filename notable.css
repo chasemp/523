@@ -419,3 +419,149 @@ body.light-theme .item-link:hover {
     font-size: 0.9rem;
   }
 }
+
+/* About page specific styles */
+.quote-section {
+  max-width: 700px;
+  margin: 3rem auto 3rem auto;
+}
+
+.quote-block {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  font-style: italic;
+}
+
+.quote-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text);
+  margin: 0 0 1rem 0;
+  text-align: center;
+  font-weight: 400;
+}
+
+.quote-author {
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.quote-author a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.quote-author a:hover {
+  color: var(--text);
+  text-decoration: underline;
+}
+
+.quote-divider {
+  height: 1px;
+  background: var(--border);
+  margin: 2rem 0;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-image-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.about-image {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 2px solid var(--border);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Light theme image border */
+body.light-theme .about-image {
+  border-color: var(--border);
+  box-shadow: 0 4px 16px rgba(62, 39, 35, 0.1);
+}
+
+/* Dark theme image border */
+body:not(.light-theme) .about-image {
+  border-color: var(--border);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.about-content-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-content {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 2rem;
+  line-height: 1.8;
+  color: var(--text);
+  text-align: left;
+}
+
+.about-content p {
+  margin: 0 0 1.5rem 0;
+  font-size: 1rem;
+}
+
+.about-content p:last-child {
+  margin-bottom: 0;
+}
+
+.about-content a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.about-content a:hover {
+  color: var(--text);
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .quote-section {
+    margin: 2rem auto 2rem auto;
+  }
+  
+  .quote-text {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+  
+  .quote-author {
+    font-size: 0.9rem;
+  }
+  
+  .quote-divider {
+    margin: 1.5rem auto;
+  }
+  
+  .about-image {
+    max-width: 250px;
+  }
+  
+  .about-content {
+    padding: 1.5rem;
+  }
+  
+  .about-content p {
+    font-size: 0.95rem;
+  }
+}
