@@ -1,37 +1,37 @@
 ---
-gdoc_created: 2026-01-09 16:39:01.931000+00:00
-gdoc_modified: '2026-01-09T15:27:06.927607'
-gdoc_url: https://docs.google.com/document/d/1SdTUBOrNQ3noGFCM9RylwupoiXVnu-HIqaebBygsEQs/edit
 title: remote-work-fifteen-years
+gdoc_url: https://docs.google.com/document/d/1SdTUBOrNQ3noGFCM9RylwupoiXVnu-HIqaebBygsEQs/edit
+gdoc_created: 2026-01-09T16:39:01.931Z
+gdoc_modified: 2026-01-09T22:53:35.779Z
 ---
 
 # Intentionally Remote: 15 Years of this Lifestyle
 
 It isn't a coincidence that my oldest daughter is also about to turn 15\.
 
-Before she was born, my work life was defined by a daily 5 am shuffle.  I would be out the door before the sun was up for a 30-45 minute commute each way to an office, and I would walk back through my front door at 6-7 PM or later.
+Before she was born, my work life was defined by a daily 5 am shuffle.  I would be out the door (often before the sun was up) for a 30-45 minute commute each way to an office, and I would walk back through my front door at 6-7 PM or later.  I spent more time in the car and at the office than I did at home, which was no longer working for me.
 
-At the time remote work, even in tech, was definitely the exception.  Almost a curiosity, when brought up in conversation, but I went fully remote when I found an opportunity to try it. And I've been working on remote-first, globally distributed teams since that time, now almost 15 years.
+I decided to make a leap to a “remote first” opportunity, and I've been working remotely on globally distributed teams since that time, now almost 15 years.
 
-This isn't a manifesto or how-to guide. It's a personal reflection on remote work as a lifestyle that has shaped my life and my family.
+This is a personal reflection on remote work as a lifestyle that has shaped my life and families.
 
 ## A Story That Stuck With Me
 
-I remember being at an OpenStack conference in Vancouver in 2018, one of those "birds of a feather" open spaces sessions where people who worked remotely gathered to talk about their experiences. A gentleman from Red Hat stood up and shared something that has stayed with me.
+I remember being at an OpenStack conference in Vancouver in 2018, one of those "birds of a feather" open spaces sessions where people gather to discuss a common concern or theme.  Distributed work at the time was treated a bit as a curiosity with its own subculture, and those of us who worked remotely gathered to talk about our experiences. A gentleman from Red Hat stood up and shared a sentiment that has stayed with me.
 
 He acknowledged that being fully remote might have impacted his visibility in certain ways: maybe his pace of promotion, maybe certain "in-office" opportunities. But in exchange, he had walked his daughter to school every single day from kindergarten through high school.
 
 He was misty-eyed as he said it, and I felt the same.  It hit home.
 
-For me, remote work has never been about "slacking off", avoiding responsibility, or an out-of-sight out-of-mind prospect. It's been a lifestyle choice. It's the ability to be present for the moments that matter while maintaining a professional standard that is just as rigorous—if not more so—than an office environment.
+For me, remote work has never been about "slacking off", avoiding responsibility, or an out-of-sight out-of-mind prospect. It's been a lifestyle choice. It's the ability to be present for little moments that matter while maintaining a professional standard that is just as rigorous, if not more so, than a shared office environment.
 
-## Setting the Boundaries
+## Setting Boundaries
 
 The success of this lifestyle depends on structure and intentionality.
 
-In our house, we've always had well-defined boundaries. I have a separate office, and even when the kids were little, they understood the "closed door" rule: if the door is shut, I'm at work. Unless it's an emergency, I'm not "home" yet.
+In our house, I’ve been working “from home” since my kids can remember, and we started with well-defined boundaries from the beginning. I have a separate office, and even when the kids were little, they understood the "closed door" rule: if the door is shut, I'm at work. Unless it's an emergency, I'm not "home" yet.
 
-I treat remote work with the same respect as a vocation on location. You do have to be able to thrive in the quiet of your own execution.
+I treat remote work with the same respect as a vocation on location.
 
 That said, there are these small daily rhythms that make the lifestyle pleasurable:
 
@@ -40,7 +40,7 @@ That said, there are these small daily rhythms that make the lifestyle pleasurab
 - Switching a load of laundry between meetings  
 - Eating lunch with my daughters at the table for half an hour when they were little
 
-I do not classify these as "distractions." 
+I do not classify these as "distractions."
 
 They are elements of a balanced life. But they only work because of those firm boundaries. Without the discipline, the "lifestyle" side of remote work can collapse into burnout and overwhelm.
 
@@ -48,11 +48,11 @@ They are elements of a balanced life. But they only work because of those firm b
 
 Long before I went fully remote, I learned that where you are has little to do with whether you're working.
 
-I remember one interesting example from my last in-person job. I was doing security and systems administration engineering, and we served international customers with an agreed upon downtime maintenance window from 2 to 4 AM.
+I remember one interesting example from my last “on location” job. I was doing security and systems administration engineering, and we served international customers with an agreed upon downtime maintenance window from 2 to 4 AM.
 
 As was typical for these maintenance overnights, I went to bed at 8 PM, woke up at 12:30 AM, loaded equipment into my car, and drove downtown to a data center. I checked in through co-location security well before the 2 AM window, worked through the maintenance, and wasn't done until around 7 AM. At that point, I'd put in nearly a full day.
 
-It was typical at that time to go into the office afterward to debrief. I drove there, stopped for breakfast, and badged in around 11 AM.  Unfortunately, the office was in the opposite direction from home.
+It was typical at that time to go into the office afterward to debrief. I drove there, paused for breakfast, and badged in around 11 AM.
 
 The next week, it came back to me that someone had lodged a complaint. My team wasn't getting to the office until almost lunchtime. It was described as “unacceptable”.
 
@@ -68,23 +68,21 @@ Not lovable, yet I knew what I was getting into. But even with these concrete ex
 
 It was a strange contradiction that highlighted something important: work had already been happening from many different locations and at many different times. The office was one of them.
 
-For me, work has never been about location. It's been about focus and output. That's been true as far back as I've been doing this kind of work, all the way to working as a district technician driving between schools within the district during my senior year of high school.
+If work is not about location then it must be about focus, effort and output. That's been true as far back as I've been doing this kind of work, all the way to working as a district technician driving between schools within the district during my senior year of high school.
 
 Before I left the 2-4AM maintenance window job, I had a conversation with my manager about establishing remote days as fully embracing, especially after overnight maintenance windows. The feedback wasn't supportive. One of the most senior engineers said, and I quote: "My dad laid brick and he was never able to work from home. And I don't expect to either. We all need to be here. That's the job."
 
 I've thought about that a lot. Every vocation has advantages and constraints. The idea that because physical labor requires being on-site, knowledge workers configuring systems remotely should be held to that same standard seems archaic.
 
-I have family members who do physical trades (tool and die, mechanics, tree trimming) and none of them begrudge me the ability to work remotely. It's a benefit, even a privilege, but it's not taking anything away from anyone else. The pushback is often reactionary, based on unfamiliarity rather than evidence.
+I have family members who do physical trades (tool and die, mechanics, tree trimming) and none of them begrudge me the ability to work remotely. It's a benefit, even a privilege, but it's not punitive against them. This flavor of pushback is often reactionary, based on unfamiliarity rather than evidence.
 
-Interestingly, both the manager in question and that senior engineer went on to work fully remotely for different companies a few years later.  We stayed in touch over the years and have since gone to events together.  I’m not bitter or indignant over any of it, but it stayed with me.  
+Interestingly, both the manager in question and that senior engineer went on to work fully remotely for a different company a few years later.  We stayed in touch over the years and have since gone to events together.  I’m not bitter or indignant over any of it, but it stayed with me.
 
 ## Remote is Nothing New
 
 There are quagmires of pushback about remote work not being "effective." That feels like a misunderstanding of how modern business has functioned for decades.
 
 Even in "office-first" companies, if you have a satellite office or a team in another city, you are already working remotely – to someone. We've been collaborating across distances long before the pandemic forced everyone's hand.  My great-grandfather was a telegraph operator and my reading of that tells me that as soon as the advantages of collaborating across distance in real-time were available they were seized. President Lincoln coordinated Union generals during the Civil War via telegraph. Banks began "wiring money" across continents. The Titanic's sinking was reported globally within hours. Remote collaboration isn't new. We've been refining it for over 150 years.
-
-Here's my opinion: you're never going to have everyone you want in the same office, in the same room, at the same time, for all the times you want it. As any company scales, you're going to deal with people not being in the same city, state, or building. These challenges are part and parcel with growth.
 
 If you need proof that distributed collaboration works at scale, look at open source. The infrastructure powering the modern world (the Linux kernel, Kubernetes, React, Python, Go) was all built by remote globally distributed teams. These aren't small hobby projects. They're foundational systems that literally run global commerce, healthcare systems, and critical infrastructure. And they were built by people who, more often than not, have never met face-to-face.
 
@@ -96,13 +94,13 @@ When leading an organization, you can explicitly find ways to make collaboration
 
 ## The IRC Generation
 
-I believe part of why remote work felt so natural to me goes back to coming of age in the late '90s and early 2000s. I spent a lot of time online in chat rooms and on forums, building friendships and collaborations with people I'd never met in person. Some of those friendships have lasted many years, and I still haven't met some of those folks in person. And that's okay.
+I believe part of why remote work felt so natural to me goes back to coming of age in the late '90s and early 2000s. I spent a lot of time online in chat rooms and on forums, building friendships and connection with people I'd never met in person. Some of those friendships have lasted many years, and I still haven't met some of those folks in person. And that's okay.
 
-That experience normalized the idea that meaningful connection and collaboration don't require physical proximity. You can build trust, share ideas, solve problems, and genuinely know someone without ever sharing the same physical space.
+That experience normalized the idea that meaningful connection and collaboration don't require physical proximity. You can build trust, share ideas, solve problems, and genuinely know someone without ever sharing the same physical space.  That said, meeting in person can absolutely jumpstart and accelerate this process.
 
 ## The Sitcom Fallacy
 
-There's this fiction in sitcoms and movies where if two people have a misunderstanding or things go wrong, there's almost always some happenstance encounter, people bump into each other at a coffee shop, or end up at the same party, and suddenly the space and opportunity to talk things over, make amends, and move forward is thrust upon them.
+There is a convenient fiction in sitcoms and movies where if two people have a misunderstanding or argument, it is followed by some happenstance encounter, bumping into each other at a coffee shop, or ending up at the same party, and suddenly the space and opportunity to talk things over, make amends, and move forward is thrust upon them.
 
 The thing is, life doesn't really work like that. Remote or not.
 
@@ -114,7 +112,7 @@ I call this the need for "non-objective oriented communication": conversations t
 
 ## The Value of Face Time
 
-Remote work is most effective for close collaboration when I understand and know the people I'm working with. That has required getting together in person, ideally two or three times a year depending on the team and the context.
+Remote work is most effective for close collaboration when I understand and know the people I'm working with. That has often been bolstered by getting together in person, ideally two or three times a year depending on the team and the context.
 
 There's something about spending time with someone face-to-face that changes how you communicate with them afterward. You learn how they phrase things, their tone of voice, their mannerisms, and sense of humor. I have had much more effective communication with some people after spending a few days with them in person.
 
@@ -124,15 +122,15 @@ So they got everyone together in a room. People presented their architectural pr
 
 Remote does not mean never meeting in person. In fact, the opposite. Coming together should be regular and planned.
 
-When I worked at Wikimedia, we had in-person meetings twice a year: once for the whole company and once for the team. I was fortunate enough to participate in leadership training that brought together managers and horizontal leaders from across the organization. We'd meet in person a handful of times, build relationships with people we didn't work with day-to-day, then go back to our distributed work.
+When I worked at Wikimedia, we had in-person meetings twice a year: once for the whole company and once for the team. I was fortunate enough to participate in leadership training that brought together managers and horizontal leaders from across the organization. We'd meet in person a handful of times, build relationships with people we didn't work with day-to-day, then go back to our distributed realities.
 
 In hindsight, those meetings were some of the most high-value introductions and in person get-togethers I've ever had. And they had almost nothing directly to do with the execution of the technical work I did day-to-day. They were about building trust. They were about building rapport. They were about understanding what other people care about. They were about human connection.
 
-Because of those relationships, I was able to get things done, make moves, build support for initiatives and outcomes that I don't believe I would have been able to otherwise. It wasn't that the people were different, or that I was different. It was our relationship that was different. They knew I was earnest. They knew what I cared about. They believed I didn't have ulterior motives. I wanted to do good work, build good teams, and progress the mission.
+Because of those relationships, I was able to get things done, make moves, build support for initiatives and outcomes that I don't believe I would have been able to otherwise. It wasn't that the people were different, or that I was different. It was our relationship that was different. They knew I was earnest. They knew what I cared about. They saw I didn't have ulterior motives. I wanted to do good work, build good teams, and progress the mission.
 
 Trust is the ultimate currency in teamwork, especially on teams where the edges only touch once in a while or where there isn't a lot of deep rapport building organically.
 
-These in-person gatherings aren't optional fluff—they're strategic investments in team effectiveness. You're going to spend a lot of the money you would have spent on a single physical location getting people together periodically. But there are advantages: you get to maybe go to a new location, it's much more focused time than it would be otherwise, and you can explicitly carve out novel shared experiences to get to know folks.
+These in-person gatherings are strategic investments in team effectiveness. You're going to spend a lot of the money you would have spent on a single physical location getting people together periodically. But there are advantages: you get to maybe go to a new location, it's much more focused time than it would be otherwise, and you can explicitly carve out novel shared experiences to get to know folks.
 
 One of the most pernicious misconceptions about remote is that it's by nature a cheaper model. It's not cheaper. It's different.
 
@@ -142,7 +140,7 @@ I do believe that intentionally cultivated remote cultures can be as effective, 
 
 If you solve for distributed collaboration at the micro level (per employee, so to speak) you unlock the ability to pull in expertise from wherever you need it – which includes internally. You're not limited by your zip code; you're limited by your communication frameworks.
 
-This matters more as you scale. Even if you start with everyone in one building, growth eventually means people in different cities, states, or countries. The problems of distributed teams are going to emerge regardless. If you design for them from the start, you're ahead of the game.
+Here's my opinion: you're never going to have everyone you want in the same office, in the same room, at the same time, for all the times you want it. As any company scales, you're going to deal with people not being in the same city, state, or building. These challenges are part and parcel with growth.   Designing for it upfront is an advantage.
 
 ## Managing Remote Teams
 
@@ -160,15 +158,13 @@ I want to acknowledge that pandemic remote was a very atypical experience.
 
 Everything was hard. People were often isolated in their houses. It wasn't planned for. It was a thing that was thrust upon people who didn't build up to it. Many folks understandably missed their routines, missed really just being around people.
 
-When remote work is viewed as a lifestyle, part of that lifestyle is having social outlets outside of the "non-office." 
+When remote work is viewed as a lifestyle, part of that lifestyle is having social outlets outside of the "non-office."
 
 The struggle people felt during the pandemic wasn't a failure of remote work; it was the hardship of isolation, lack of planning, and being thrust into a situation that was scary, indefinite, and isolating. Sustainable remote work requires social outlets and deliberate communication, which was difficult during a national quarantine.
 
 ## Not For Everyone
 
-I've always been someone who needs a fair amount of alone time and downtime. That personality trait probably makes remote work easier for me than it might be for others. If you thrive on constant social interaction and need that energy from being around people all day, remote work might be more challenging.
-
-It does require explicit effort to build trust and team cohesion. I don't think that's necessarily unique to remote teams, but I do think there are extra parameters to navigate when a team is distributed, especially when globally distributed.
+I've always been someone who needs a fair amount of alone time and downtime. That personality trait probably makes remote work easier for me than it might be for others. If you thrive on social interaction and need that energy from being around people all day, remote work might be more challenging.
 
 I have seen a lot of interesting setups, one of them is the use of co-working spaces with kitchens, meeting rooms, and a lobby for those who want to share a space.  Socializing is organized around location but not employment.  I tried it briefly and it didn’t suit my needs, but I have seen it be exceptionally functional.
 
@@ -182,8 +178,8 @@ That community can be its own kind of social center, a professional ecosystem bu
 
 This isn't a condemnation of the office or a declaration that everyone should work remotely. Some people genuinely prefer the structure and social rhythm of an office, and that's perfectly valid.
 
-This is just my experience. After 15 years, I've found that the trade-off (being there more as my kids grow up, having the flexibility to make coffee in my own kitchen, sitting on my porch and looking at the leaves) is a return on investment that no office perk could ever match.
+After 15 years, I've found that the trade-offs of; being there more as my kids grow up, having the flexibility to make coffee in my own kitchen, sitting on my porch and looking at the leaves is a return on investment that no office perk could ever match.
 
 The "water cooler" talk is different in remote work. But the connections can be as deep, the work as effective, and the life you build around it significantly aligned with what matters to you. Whether you're remote or in an office, the fundamentals are the same: dedicated time to connect as people, not just as coworkers, builds trust.  Trust is necessary for change, and change is the only constant.
 
-Remote work is a lifestyle. And for me, it's been the right one.
+Remote work is a lifestyle. And for me, it's been the right one.  
