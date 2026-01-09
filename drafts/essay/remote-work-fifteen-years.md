@@ -1,6 +1,9 @@
 ---
-
-## title: remote-work-fifteen-years gdoc\_url: [https://docs.google.com/document/d/1SdTUBOrNQ3noGFCM9RylwupoiXVnu-HIqaebBygsEQs/edit](https://docs.google.com/document/d/1SdTUBOrNQ3noGFCM9RylwupoiXVnu-HIqaebBygsEQs/edit) gdoc\_created: 2026-01-09T16:39:01.931Z gdoc\_modified: 2026-01-09T17:12:53.012Z
+gdoc_created: 2026-01-09 16:39:01.931000+00:00
+gdoc_modified: '2026-01-09T15:27:06.927607'
+gdoc_url: https://docs.google.com/document/d/1SdTUBOrNQ3noGFCM9RylwupoiXVnu-HIqaebBygsEQs/edit
+title: remote-work-fifteen-years
+---
 
 # Intentionally Remote: 15 Years of this Lifestyle
 
@@ -8,9 +11,9 @@ It isn't a coincidence that my oldest daughter is also about to turn 15\.
 
 Before she was born, my work life was defined by a daily 5 am shuffle.  I would be out the door before the sun was up for a 30-45 minute commute each way to an office, and I would walk back through my front door at 6-7 PM or later.
 
-At the time remote work, even in tech, was definitely the exception.  Almost a curiosity, when brought up in conversation, but I went fully remote when I found an opportunity to try it. And I've been working on remote first, globally distributed teams since that time and for almost 15 years now.
+At the time remote work, even in tech, was definitely the exception.  Almost a curiosity, when brought up in conversation, but I went fully remote when I found an opportunity to try it. And I've been working on remote-first, globally distributed teams since that time, now almost 15 years.
 
-This isn't a manifesto or how-to guide. It's a personal reflection on defining remote work as a lifestyle that has impacted myself and my family.
+This isn't a manifesto or how-to guide. It's a personal reflection on remote work as a lifestyle that has shaped my life and my family.
 
 ## A Story That Stuck With Me
 
@@ -20,7 +23,7 @@ He acknowledged that being fully remote might have impacted his visibility in ce
 
 He was misty-eyed as he said it, and I felt the same.  It hit home.
 
-For me, remote work has never been about "slacking off", avoiding responsibility, or an out-of-site out-of-mind prospect. It's been a lifestyle choice. It's the ability to be present for the moments that matter while maintaining a professional standard that is just as rigorous—if not more so—than an office environment.
+For me, remote work has never been about "slacking off", avoiding responsibility, or an out-of-sight out-of-mind prospect. It's been a lifestyle choice. It's the ability to be present for the moments that matter while maintaining a professional standard that is just as rigorous—if not more so—than an office environment.
 
 ## Setting the Boundaries
 
@@ -69,7 +72,7 @@ For me, work has never been about location. It's been about focus and output. Th
 
 Before I left the 2-4AM maintenance window job, I had a conversation with my manager about establishing remote days as fully embracing, especially after overnight maintenance windows. The feedback wasn't supportive. One of the most senior engineers said, and I quote: "My dad laid brick and he was never able to work from home. And I don't expect to either. We all need to be here. That's the job."
 
-I've thought about that a lot. Every vocation has advantages and constraints. The idea that because physical labor requires being on-site means knowledge workers configuring systems remotely should be held to that same standard seems archaic.
+I've thought about that a lot. Every vocation has advantages and constraints. The idea that because physical labor requires being on-site, knowledge workers configuring systems remotely should be held to that same standard seems archaic.
 
 I have family members who do physical trades (tool and die, mechanics, tree trimming) and none of them begrudge me the ability to work remotely. It's a benefit, even a privilege, but it's not taking anything away from anyone else. The pushback is often reactionary, based on unfamiliarity rather than evidence.
 
@@ -89,7 +92,7 @@ Engineering efforts at global scale clearly do not require physical proximity. W
 
 The open source ecosystem has been proving for decades that remote collaboration can produce not only functional work, but world-class, mission-critical systems. If anything, the distributed model seems to be an advantage when you're trying to pull together the best expertise from around the world.
 
-When leading an organization, you can explicitly find ways to make collaboration asynchronous and remote a first class citizens, or perpetually deal with second-class solutions in those inevitable situations. It's a strategic decision about priorities.
+When leading an organization, you can explicitly find ways to make collaboration asynchronous and remote as a first-class consideration, or perpetually deal with second-class solutions in those inevitable situations. It's a strategic decision about priorities.
 
 ## The IRC Generation
 
@@ -157,7 +160,7 @@ I want to acknowledge that pandemic remote was a very atypical experience.
 
 Everything was hard. People were often isolated in their houses. It wasn't planned for. It was a thing that was thrust upon people who didn't build up to it. Many folks understandably missed their routines, missed really just being around people.
 
-When remote work is viewed as a lifestyle, part of that lifestyle is having social outlets outside of the non-office. 
+When remote work is viewed as a lifestyle, part of that lifestyle is having social outlets outside of the "non-office." 
 
 The struggle people felt during the pandemic wasn't a failure of remote work; it was the hardship of isolation, lack of planning, and being thrust into a situation that was scary, indefinite, and isolating. Sustainable remote work requires social outlets and deliberate communication, which was difficult during a national quarantine.
 
@@ -183,4 +186,4 @@ This is just my experience. After 15 years, I've found that the trade-off (being
 
 The "water cooler" talk is different in remote work. But the connections can be as deep, the work as effective, and the life you build around it significantly aligned with what matters to you. Whether you're remote or in an office, the fundamentals are the same: dedicated time to connect as people, not just as coworkers, builds trust.  Trust is necessary for change, and change is the only constant.
 
-Remote work is a lifestyle. And for me, it's been the right one.  
+Remote work is a lifestyle. And for me, it's been the right one.
