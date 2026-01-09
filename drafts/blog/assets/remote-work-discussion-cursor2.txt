@@ -1,0 +1,166 @@
+I was thinking about sort of being remote from a place, right? Because remote is an idea. On a remote team, everyone is remote to each other, or at least being remote is normalized and supported and really expected, right?
+
+But when I was working at the last in-person place, I was doing security and system admin work and the business served international customers. We had a downtown window from 2 to 4 a.m. And I would often or sometimes need to wake up, drive downtown from the suburbs and, you know, get into a data center and do maintenance, right? Or expansions or this was, you know, pre-public cloud. So we ran all of our own stuff in our own data centers. 
+
+And so, you know, I would get home, go to bed at 8 p.m., wake up at 12:30 a.m., maybe have to load up equipment in my car that I had sometimes had to bring home because we needed it there. But I didn't want to leave it in the car in the driveway. And I would be downtown and checked in through kind of the whole co-location provider security, you know, well before kind of maintenance window starts at 2 a.m. And then kind of work through and it was from two to four but at four I—that was when sort of the impacting changes had to have been seen through, we still had all kinds of things to do after four. So we would sometimes not be out of there until, you know, six or seven in the morning, sometimes later. 
+
+But at that point, you know, I'd put in nearly a full day and the perspective of, um, some of the folks at that company at that time was, you know, if you're not in the office, you're not working. Ironically, we were always on call. I've worked Christmas Day. I've worked with my laptop out and like present wrapping around me on Christmas Day. And that's fine. You know, they did a lot of business then. But the sort of double standard there of like, you know, if you're not in the office, you're not working, but also we need you to carry around a computer and work from wherever you are when we have a problem was always sort of mystifying. 
+
+But anyway, so I got done with this maintenance window, cleaned everything up and was asked to come into the office to basically debrief, right? And the office was the opposite direction from home. So I drove there and I was kind of badging through. It was probably close to 11 in the morning or something. I think I stopped and got some breakfast and—
+
+Funnily enough, it came back to me the next week that there were people who were complaining or who had lodged a complaint that my team wasn't, like, getting there in the morning until, you know, 11, almost lunchtime. That wasn't acceptable. 
+
+Now, obviously, these folks didn't have any idea, you know, that I had been up working since the middle of the night and that rather than it being a short day, it was actually an extra long day. I was probably putting in 10, 12 hours after I drove home, maybe longer sometimes. 
+
+But that always stuck with me because there isn't, especially in a job where emergent work is on the menu and expected, anything where there's break fix, firefighting, you know, response to kind of in the moment issues, you never know what work looks like or how the schedule goes. 
+
+And that complaint got all the way back to me in a meeting with my manager and we talked about it and what day it was and—you know, it was true that I was downtown and there was no real controversy at the end of it, but it could—created kind of a weird bad blood like it was never really addressed and so where you're working from and what work entails you know it's been atypical or not one single factor or not singular for as long as I've been working because I've almost always done things where—yeah. You know, I needed to move between different locations all the way back to, um... working as a district technician, you know, for part of my senior year high school experience. And in that case, I was moving between different schools within the district. And whether I was working or not didn't have anything to do with my location. It had to do with, you know, my focus and my output. 
+
+And so for me, like, when and where is work happening and what does it mean has been a really long thought process and internal conversation because I've seen how you know, expectations are everything and you have to communicate and who is doing what and when can be difficult without context to understand but I never forgot that someone you know, lodged a formal complaint with, with the head of my department after I had just put in a nine hour day overnight when I drove into the office to give an in-person report of the maintenance window. And then I went home and it was about a 12 hour day. 
+
+And the fact that that complaint wasn't dismissed out of hand is interesting, but also highlights just the struggles of perception and work and how, you know, they're not new and no matter sort of when or where you are, you have to—you have to address them specifically, you know, or head on, I guess, but not in a confrontational way, but just in a work is not where you are. Work is what you're doing and what you're contributing to. That's my feeling.
+
+And experience has borne out that I'm a high output employee. I care a lot. I like to do a lot. You know, I'm blessed that I really like what I do. I like the things that I work on most of the time. Um, and so for me, I have a lot of intrinsic motivation. So where my hands are on a keyboard at or where I'm taking phone calls from, you know, that has had very little to do with work even before I went fully remote. And in fact, it was explicitly recognized that I would be working even when I wasn't in that building, in that chair, in that space.
+
+---
+
+Follow-up reflection on themes:
+
+The absurdity of "butt-in-seat" metrics - yes, definitely a point.
+
+The double standard - I'm not too interested in highlighting the double standard specifically. It was really that different areas of the company had to work differently. When you worked in systems engineering or security, you were expected to work many off hours. So yeah, it's true. It wasn't like being an accountant.
+
+Work is output, not location - yes, definitely. And it highlights that for me this goes as far back as I've been doing computer work.
+
+Perception versus reality gap - yes.
+
+Remote is relative - yes. And that should roll into some of the existing content we have about how all companies end up being remote, all teams end up collaborating remotely, right? You're never going to have everyone you want in the same office, in the same building, at the same time, for all the times you want it. So you have to either explicitly find ways to have collaboration be asynchronous and remote-supported, or you're going to constantly be dealing with second-class solutions in those situations, which are inevitable. And that's just a decision on strategy and priorities—not bad or wrong, but I believe it to be true.
+
+Early on context for why you chose to go fully remote - No, it wasn't frustration with the double standard really. That was just something that I noted and that stuck with me as like, "Oh yeah, the perception gap of when and where work is happening exists no matter what the structure is, right? Remote or not." And so it's just something worth noting. It's always going to be a consideration.
+
+Remote is nothing new - yep.
+
+Disconnect about perception and reality - sure.
+
+And I would like to add: one of the themes I've seen, especially in the early days of pandemic remote, which was harried and difficult and thrust upon many people, is that some folks have a real hard time even envisioning managing others who are remote to them. Being a manager for a remote team, to my mind, is not harder or easier than being a manager of people in person. There are just different aspects and flavors to it.
+
+But I do believe—in my opinion—that remote work, at least as I've seen and done it (and I have run multiple teams), provides the opportunity for a lot of clarity in terms of what people are doing when and where. You really end up having to talk about outcomes and impact rather than time in a room or in a space or anything else, right?
+
+And that can be hard because when you're remote, unless you reach—unless you crest the hill, unless you tie something off and have something accomplished to show—it can be difficult to be like, "Well, I spent all this time figuring out ways not to make a light bulb," to quote Edison. And that's just a conversation.
+
+But to my mind, being remote and being a manager—yes, it comes with challenges, but it also provides benefits, just like in-person does. I don't believe that remote management is harder or less effective. In my experience, it's been great and just requires a different set of—I don't want to say grading attributes or measurable things, but... more there, I think, but I'm not sure where yet.
+
+---
+
+Okay, here's something I kind of want to include. The idea that, okay, yes, remote work is nothing new, both to me, but also I Googled like top open source projects.
+
+The top open source projects are those that power global infrastructure and are widely relied upon across industries, as identified by the OpenSSF Criticality Score. Kubernetes (K8s) is a leading open-source system for automating deployment, scaling, and management of containerized applications. The Linux Kernel, managed by the Linux Kernel Organization, is a foundational project with significant contributions and widespread use. The React Framework and React, a JavaScript library for building user interfaces, are also among the most essential projects. Other major projects include the Python programming language, Go, Angular, Laravel Framework, Symfony, and the Zephyr Project, a scalable real-time operating system.
+
+In 2026, several emerging projects are expected to dominate the development landscape due to their performance, developer experience, and AI integration. Biome, a Rust-powered toolchain, is positioned as a complete replacement for ESLint and Prettier, offering 100x faster performance than traditional tools. Bun, a Node.js alternative, has reached version 1.0 and is gaining mainstream traction due to its 3x speed advantage and built-in bundler and package manager. Deno 2.0 is evolving with NPM compatibility and a focus on developer experience, emphasizing TypeScript-first and secure-by-default design. Zed, a multiplayer code editor built with Rust, is designed for the AI era with real-time collaboration features. Turso is making SQLite a first-class option for distributed applications with edge-native capabilities. Ollama enables running large language models like Llama 3 locally, promoting privacy and zero-latency AI. Ruff is revolutionizing Python linting with Rust-level speed, offering a 10-100x improvement over Flake8. Astro is redefining content-heavy website development with zero JavaScript by default and framework-agnostic design. Continue provides an open-source alternative to proprietary AI coding assistants, supporting local models and privacy-focused workflows.
+
+These projects reflect a broader trend toward performance, developer experience, and AI integration, with many aiming to be 10x better than their predecessors. The open-source ecosystem continues to drive innovation, particularly in AI-enabled developer tools, with Python remaining a dominant programming language for new projects.
+
+---
+
+Yeah, in terms of... you know, nothing to do with profitability or business side of it, but just purely engineering efforts at global scale—the idea that you need n number of meat sacks to be in physical proximity to each other is clearly false. What you need is intrinsic motivation and frameworks for collaboration and asynchronous tooling and, you know, a writing culture and a culture of communicating ideas and debate.
+
+But it is interesting. Here's another story, which is kind of the inverse, but is worth noting. There is a MediaWiki Developer Summit thing that happened before I worked at the Wikimedia Foundation. And this is hearsay, I guess, or as it was told to me, but effectively there were a whole bunch of—there was a constipation or backlog of big architectural decisions. And, um, there was difficulty kind of coming to a conclusion, you know, or getting buy-in, I guess, because everyone was busy. And it is true that when you're remote and things sort of aren't invading your space, you can be in the flow and in the focus a lot.
+
+Part of the reason I was told that they had this MediaWiki Developer Summit was to get people together in a room where they basically got in front of the room, people summarize and pitched kind of their, "Hey, here's the architectural decision we're making. We're looking to codify." And the interesting thing is, is when they had these same people in the room who had been so hard to get kind of buy-in from because everybody was way—overworked is a strong word, but like so much going on, it was difficult to focus and dig in on something that wasn't immediately right in front of your face. But I think that that was the environment and the complexity and kind of the load rather than remote itself.
+
+But people came into this one meeting room and all of these decisions were able to be made in a short amount of time. And through that they developed mechanisms for kind of making those decisions without needing to do that. But it's the idea that it isn't one or the other. Like remote without ever meeting, you know, or ever collaborating in a physical space definitely has challenges. You know, I'm not advocating never coming together. In fact, the opposite. I think coming together should be regular and planned on and part of the scheme. It's interesting that in this case, you know, it was kind of a buildup and then tip over of these architectural decisions, but the fact that they were able to kind of learn from it and move forward really to me reinforces the loop rather than invalidates it.
+
+---
+
+Details on the first MediaWiki Developer Summit discussed:
+
+The first Wikimedia Developer Summit, originally known as the MediaWiki Developer Summit, took place in 2015 in San Francisco. This event marked the beginning of an annual series of meetings focused on advancing MediaWiki and related technologies supporting the Wikimedia movement. The 2015 summit was held on January 26–27 and included discussions on topics such as service-oriented architecture, user experience, and extension management. The event was hosted at the Mission Bay Conference Center and featured sessions on improving the MediaWiki codebase, API usability, and collaboration practices. The summit was later rebranded and evolved into the Wikimedia Technical Conference starting in 2018.
+
+---
+
+Here's another story to kind of put on that same pile. So when I worked at Wikimedia, you know, I was a remote individual contributor twice over and a manager. And really enjoyed it and we got an immense amount done. But we also had in-person meetings twice a year, once for the whole company and once for the team.
+
+Now one of the interesting things about that is, you know, there were people from all over the company that were selected to go to this leadership training, which required you to come in-person a handful of times and put you together with sort of horizontal leaders—equivalent to you or other managers for the most part, though some people I don't believe were. And you built relationships with those folks in person and kind of went back to your distributed realm.
+
+But funnily enough, I would say in hindsight especially, those meetings and that training were some of the most high-value meetings I've ever had. And they had really nothing directly to do with execution of the work that I did. They were about building trust. They were about building rapport. They were about understanding what other people care about. They were about human connection.
+
+And honestly, I was able to get things done and make moves and build support for initiatives and outcomes that I don't believe I would have been able to otherwise. And it isn't the people that were different, me or them. It was our relationship that was different. They knew that I was earnest. They knew what I cared about. They knew that I was—what I was looking to do and they believed it to be true. That's what I think. I didn't have ulterior motivations. I just wanted to do good work and build good teams and progress the mission.
+
+Good faith is warranted and productive. I believe that trust is the ultimate currency in terms of teamwork, especially teams where the edges only touch sort of once in a while. There isn't a lot of deep rapport or teams where they don't have kind of an otherwise overlapping section where they can kind of build relationships organically. You have to explicitly make it happen.
+
+So that's another instance to me of remote and in-person are not—it's not a continuum. They're not opposed to each other. You know, they're just strategic choices, I guess, in building out an organization and a team. And to my mind, they reinforce each other, right? Like being distributed from people you need to collaborate with closely is inevitable, and being in person can provide jumpstarts on relationships or kind of crossroad decision making. But in the end, it's really just about what works for the people that you're working with and how you decide to explicitly structure your change over time or your evolution over time.
+
+---
+
+---
+
+Here's a funny one to add. True story. So before I left my last in-person gig to go to a remote place, there was a conversation with my manager about just doing it in office sometimes, but having remote days be fully supported, right? Like if I was at the data center and I'd put in a full day, I'd like to just go home and come in the next day. And then there's also, in my opinion, you know, emergent off-hour support should be effectively weighted at time and a half. If you work six hours overnight unexpectedly from midnight to 6 AM, like just count it as a full day and go back to bed. That's, from my perspective, the only way that things can be sustainable. There has to be a give and take.
+
+Anyway, so I had this conversation with my manager and one of the other senior trusted folks was in the room. There's probably four or five of us. And the feedback that I got was not supportive of the idea, even though I was working not in the office often—and sometimes out of necessity—and sometimes the majority. There were several physical facilities I had to be at that were elsewhere.
+
+The feedback that I got was not supportive of the idea. And then also the kind of most senior engineer said, and I quote: "My dad laid brick and he was never able to work from home. And I don't expect to either. We all need to be here. That's the job." End quote.
+
+And the interesting thing there is, I thought about that a lot at the time, but I think that it maybe is just like a non sequitur, like a complete unrelated point. Because you know, if you're a bricklayer and you have the opportunity to work from home, wouldn't you take it? Aren't there advantages to every field, every career? Like, I don't understand what one has to do with the other. I don't think it's a rational argument. It's an emotional argument. It's an argument of sort of feelings or fairness or something, but I don't think that it weighs out in the end.
+
+To my mind, you know, every vocation and situation has pluses and minuses. And the idea that because a bricklayer in the 1970s or 80s had to go on site to build a physical wall, that somebody who configures systems remotely should be held to the same standard just seems archaic. And it seemed that way to me then and it seems that way to me now.
+
+The other thing is I have a lot of family members—most of them, nearly all—who do physical in-person jobs. Tool and die, mechanic, take your pick. And I've never had any of them look at me askew or say, you know, "if only" or anything like that. It is absolutely a benefit and even a privilege, but it's not taking away anything from anyone else. You know, I have family who are like electrical engineers and draftsmen and they do a lot of their drafting at home and it's considered work.
+
+So I just think the pushback is often reactionary and based on sort of new or unfamiliar, or, you know, just learnings that need to happen. But ultimately, the world today is not the same as 10 years ago. What got you here won't get you there. And I think, you know, how remote work is handled, how sort of non-centralized or shared location work is handled has a big part of that story.
+
+---
+
+CURSOR ASSISTANT NOTES AND DISCUSSION:
+
+Initial essay draft created with themes from first conversation (remote-work-discussion-gem1.txt):
+- Personal story about the 5:30 AM shuffle and wanting time with family
+- Red Hat anecdote about walking daughter to school
+- Boundaries and structure (closed door rule)
+- Daily micro-wins (coffee, porch time, laundry)
+- IRC background normalizing remote connection
+- "Sitcom fallacy" and need for explicit communication
+- Non-objective oriented communication
+- Value of in-person meetups 2-3 times per year
+- Cost model - not cheaper, just different
+- Cultivating remote culture and global talent access
+- Pandemic differentiation
+- Personality considerations
+
+User made initial edits to title and opening paragraphs.
+
+Assistant asked about integrating new stories:
+- The 2AM maintenance window story (work is output not location)
+- Open source projects as proof of remote effectiveness
+- MediaWiki Developer Summit story
+- Wikimedia leadership training story
+
+User requested: "it seems like remote and pandemic should be its own section"
+
+Assistant restructured to create dedicated "Pandemic Remote Was Different" section separate from "Remote is Nothing New"
+
+User provided open source projects research showing Linux, Kubernetes, React, Python, Go, etc. built by distributed teams.
+
+Assistant added open source argument to "Remote is Nothing New" section with the insight: "Engineering efforts at global scale clearly do not require physical proximity. What you need is intrinsic motivation and frameworks for collaboration and asynchronous tooling and, you know, a writing culture and a culture of communicating ideas and debate."
+
+User provided details about 2015 MediaWiki Developer Summit in San Francisco - added to essay.
+
+User shared Wikimedia leadership training story about building trust - integrated into "The Value of Face Time" section with the key point: "Trust is the ultimate currency in teamwork, especially on teams where the edges only touch once in a while."
+
+User requested file rename from "gem2" to "cursor2" and to ensure entire discussion is captured in transcript.
+
+Current essay structure (draft alpha 2):
+1. Introduction - 5:30 AM shuffle, going remote 15 years ago
+2. A Story That Stuck With Me - Red Hat father walking daughter to school
+3. Setting the Boundaries - closed door rule, daily rhythms
+4. Work is Output, Not Location - 2AM maintenance window story, perception gap
+5. Remote is Nothing New - open source projects, strategic choice for async collaboration
+6. Pandemic Remote Was Different - isolation vs. intentional remote lifestyle
+7. The IRC Generation - why remote felt natural
+8. The Sitcom Fallacy - need for explicit communication
+9. The Value of Face Time - MediaWiki summit, Wikimedia leadership training, trust building
+10. Intentionality in Any Context - explicit team building
+11. Cultivating Remote Culture - global talent access
+12. Managing Remote Teams - outcomes vs. time-in-seat
+13. Not For Everyone - personality considerations
+14. The Remote Network Effect - informal professional ecosystem
+15. Final Thoughts - trade-offs and lifestyle choice
