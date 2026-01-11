@@ -13,7 +13,7 @@ Before she was born, my work life was defined by a daily 5 am shuffle.  I would 
 
 I decided to make a leap to a “remote first” opportunity, and I've been working remotely on globally distributed teams since that time, now almost 15 years.
 
-This is a personal reflection on remote work as a lifestyle that has shaped my life and families.
+This is a personal reflection on remote work as a lifestyle that has shaped my life and my family.
 
 ## A Story That Stuck With Me
 
@@ -70,7 +70,7 @@ It was a strange contradiction that highlighted something important: work had al
 
 If work is not about location then it must be about focus, effort and output. That's been true as far back as I've been doing this kind of work, all the way to working as a district technician driving between schools within the district during my senior year of high school.
 
-Before I left the 2-4AM maintenance window job, I had a conversation with my manager about establishing remote days as fully embracing, especially after overnight maintenance windows. The feedback wasn't supportive. One of the most senior engineers said, and I quote: "My dad laid brick and he was never able to work from home. And I don't expect to either. We all need to be here. That's the job."
+Before I left the 2-4AM maintenance window job, I had a conversation with my manager about establishing remote days as fully supported, especially after overnight maintenance windows. The feedback wasn't supportive. One of the most senior engineers said, and I quote: "My dad laid brick and he was never able to work from home. And I don't expect to either. We all need to be here. That's the job."
 
 I've thought about that a lot. Every vocation has advantages and constraints. The idea that because physical labor requires being on-site, knowledge workers configuring systems remotely should be held to that same standard seems archaic.
 
@@ -84,7 +84,7 @@ There are quagmires of pushback about remote work not being "effective." That fe
 
 Even in "office-first" companies, if you have a satellite office or a team in another city, you are already working remotely – to someone. We've been collaborating across distances long before the pandemic forced everyone's hand.  My great-grandfather was a telegraph operator and my reading of that tells me that as soon as the advantages of collaborating across distance in real-time were available they were seized. President Lincoln coordinated Union generals during the Civil War via telegraph. Banks began "wiring money" across continents. The Titanic's sinking was reported globally within hours. Remote collaboration isn't new. We've been refining it for over 150 years.
 
-If you need proof that distributed collaboration works at scale, look at open source. The infrastructure powering the modern world (the Linux kernel, Kubernetes, React, Python, Go) was all built by remote globally distributed teams. These aren't small hobby projects. They're foundational systems that literally run global commerce, healthcare systems, and critical infrastructure. And they were built by people who, more often than not, have never met face-to-face.
+If you need proof that distributed collaboration works at scale, look at open source. The infrastructure powering the modern world (the Linux kernel, Kubernetes, React, Python, Go) was all built by remote globally distributed teams. These aren't small hobby projects. They're foundational systems that literally run global commerce, healthcare systems, and critical infrastructure. And they were built by people who, more often than not, rarely meet face-to-face.
 
 Engineering efforts at global scale clearly do not require physical proximity. What they require is intrinsic motivation, frameworks for collaboration, asynchronous tooling, a writing culture, and a culture of communicating ideas and debate.
 
@@ -178,7 +178,7 @@ That community can be its own kind of social center, a professional ecosystem bu
 
 This isn't a condemnation of the office or a declaration that everyone should work remotely. Some people genuinely prefer the structure and social rhythm of an office, and that's perfectly valid.
 
-After 15 years, I've found that the trade-offs of; being there more as my kids grow up, having the flexibility to make coffee in my own kitchen, sitting on my porch and looking at the leaves is a return on investment that no office perk could ever match.
+After 15 years, I've found that the trade-off of being there more as my kids grow up, having the flexibility to make coffee in my own kitchen, sitting on my porch and looking at the leaves is a return on investment that no office perk could ever match.
 
 The "water cooler" talk is different in remote work. But the connections can be as deep, the work as effective, and the life you build around it significantly aligned with what matters to you. Whether you're remote or in an office, the fundamentals are the same: dedicated time to connect as people, not just as coworkers, builds trust.  Trust is necessary for change, and change is the only constant.
 
