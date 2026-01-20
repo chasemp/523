@@ -567,6 +567,28 @@ body:not(.light-theme) .about-image {
   text-decoration: underline;
 }
 
+.values-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+.values-list li {
+  margin: 1.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  line-height: 1.7;
+}
+
+.values-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
 @media (max-width: 768px) {
   .quote-section {
     margin: 2rem auto 2rem auto;
