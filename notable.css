@@ -161,7 +161,7 @@ body[data-theme="dark"] {
   align-items: stretch;
   grid-auto-rows: 1fr;
   margin-top: 1rem;
-  max-height: 5000px;
+  max-height: 20000px;
   overflow: hidden;
   transition: max-height 0.3s ease, opacity 0.3s ease, margin-top 0.3s ease;
   opacity: 1;
