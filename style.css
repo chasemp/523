@@ -189,7 +189,7 @@ body.light-theme .tagline-middle p {
 
 .centerpiece-links {
   position: absolute;
-  bottom: 4.5rem;
+  bottom: 1.5rem;
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
@@ -206,6 +206,8 @@ body.light-theme .tagline-middle p {
   border: 1px solid rgba(45, 140, 255, 0.4);
   box-shadow: 0 0 0 1px rgba(45, 140, 255, 0.3);
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  padding: 0.5rem 0.85rem;
+  font-size: 0.9rem;
 }
 
 body.light-theme .centerpiece-links .btn {
