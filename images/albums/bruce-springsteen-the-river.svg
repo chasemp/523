@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="250" viewBox="0 0 250 250">
+  <rect width="250" height="250" fill="#2b6777" rx="4"/>
+  <text x="125.0" y="125.0" font-family="system-ui, sans-serif" font-size="95"
+    font-weight="700" fill="white" fill-opacity="0.9"
+    text-anchor="middle" dominant-baseline="central">RI</text>
+</svg>
