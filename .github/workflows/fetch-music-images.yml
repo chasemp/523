@@ -1,0 +1,47 @@
+name: Fetch Music Images
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - notable.html
+
+jobs:
+  fetch-images:
+    # Don't run on commits made by this workflow itself
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Fetch full history so we can push back
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Generate SVG placeholders for any new items
+        run: python3 generate_placeholder_images.py
+
+      - name: Fetch real album art and artist images
+        run: python3 fetch_music_images.py
+
+      - name: Commit and push any new images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add images/albums/ images/artists/ notable.html
+          if git diff --cached --quiet; then
+            echo "No new images to commit."
+          else
+            git commit -m "chore: fetch music images for updated notable.html [skip ci]"
+            git push origin main
+          fi
