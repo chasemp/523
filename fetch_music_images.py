@@ -155,21 +155,49 @@ def fetch_cover_art(mbid, dest):
     return ok
 
 
-def fetch_artist_image_wikipedia(name, dest):
-    """Get artist thumbnail from Wikipedia REST API."""
-    title = urllib.parse.quote(name.replace(' ', '_'))
-    url = f"https://en.wikipedia.org/api/rest_v1/page/summary/{title}"
+def fetch_album_art_itunes(album, artist, dest):
+    """Fallback: Get album art from iTunes Search API (no key required)."""
+    query = urllib.parse.quote(f"{album} {artist}")
+    url = f"https://itunes.apple.com/search?term={query}&entity=album&limit=10"
     data = mb_request(url)
     time.sleep(0.5)
     if not data:
         return False
     try:
         j = json.loads(data)
-        img_url = j.get('thumbnail', {}).get('source', '')
-        if img_url:
-            return download_url(img_url, dest)
+        results = j.get('results', [])
+        for result in results:
+            img_url = result.get('artworkUrl100', '')
+            if img_url:
+                # Upgrade to 600x600
+                img_url = img_url.replace('100x100bb', '600x600bb')
+                ok = download_url(img_url, dest)
+                if ok:
+                    return True
     except Exception as e:
-        print(f"    [PARSE ERR] {e}")
+        print(f"    [iTunes PARSE ERR] {e}")
+    return False
+
+
+def fetch_artist_image_wikipedia(name, dest):
+    """Get artist thumbnail from Wikipedia REST API. Tries disambiguation variants."""
+    candidates = [name, name + " (band)", name + " (musician)", name + " (singer)"]
+    for candidate in candidates:
+        title = urllib.parse.quote(candidate.replace(' ', '_'))
+        url = f"https://en.wikipedia.org/api/rest_v1/page/summary/{title}"
+        data = mb_request(url)
+        time.sleep(0.5)
+        if not data:
+            continue
+        try:
+            j = json.loads(data)
+            img_url = j.get('thumbnail', {}).get('source', '')
+            if img_url:
+                ok = download_url(img_url, dest)
+                if ok:
+                    return True
+        except Exception as e:
+            print(f"    [PARSE ERR] {e}")
     return False
 
 
@@ -237,16 +265,24 @@ def main():
 
         search = search_title or html_title
         print(f"  Searching: {search} by {artist}")
+        ok = False
         mbid = search_release_mbid(search, artist)
         if mbid:
             ok = fetch_cover_art(mbid, dest)
             if ok:
-                print(f"    -> {fname}")
-                album_results.add(fname)
+                print(f"    -> {fname} (MusicBrainz)")
             else:
-                print(f"    -> no cover art for mbid={mbid}")
+                print(f"    -> no cover art for mbid={mbid}, trying iTunes")
         else:
-            print(f"    -> no MusicBrainz match")
+            print(f"    -> no MusicBrainz match, trying iTunes")
+        if not ok:
+            ok = fetch_album_art_itunes(html_title, artist, dest)
+            if ok:
+                print(f"    -> {fname} (iTunes)")
+            else:
+                print(f"    -> no image found")
+        if ok:
+            album_results.add(fname)
 
     print()
     print("=" * 60)
